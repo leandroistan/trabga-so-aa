@@ -49,13 +49,15 @@ No final da simulação, o sistema gera um **Relatório Estatístico** comprovan
 
 ### Exemplo de Execução
 
-![Resultado da simulação](COLE_AQUI_O_CAMINHO_DA_SUA_IMAGEM)
+<img width="745" height="547" alt="github1" src="https://github.com/user-attachments/assets/a9bebc86-0b98-4300-8516-83bc4a05a69e" />
+<img width="795" height="811" alt="github2" src="https://github.com/user-attachments/assets/44a997f2-74d3-468b-aa33-608dfbcf0128" />
+<img width="681" height="350" alt="github3" src="https://github.com/user-attachments/assets/d6a78f8e-906c-4b16-9991-e3d52e141de6" />
 
 ---
 
 ## Demonstração em Vídeo
 
-https://github.com/user-attachments/assets/COLE_AQUI_O_ID_DO_SEU_VIDEO
+https://github.com/user-attachments/assets/82eb8bf6-4c0d-46c1-82d4-17a15d640662
 
 ---
 
