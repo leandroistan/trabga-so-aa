@@ -41,14 +41,21 @@ Para garantir a integridade dos dados num ambiente altamente concorrente, foram 
 * **Pending Queue (Fila de Espera):** Quando o cluster atinge a capacidade máxima, os PODs não são descartados. Eles entram em estado de **Pending**  e aguardam. O aviso de libertação de recursos pelos Workers aciona o Master (sob proteção do Mutex) para realocar estes PODs pendentes de forma segura[cite: .
 
 ---
-
 ## Resultados e Estatísticas
-
 No final da simulação, o sistema gera um **Relatório Estatístico** comprovando a eficiência do algoritmo:
-
 1. **Eficiência do Best Fit:** O relatório de "Tempo Ocioso" prova que a carga foi distribuída de forma inteligente, priorizando o preenchimento ideal das máquinas e justificando o poder computacional dos Workers maiores.
 2. **Ausência de *Memory Leaks*:** A contabilidade final demonstra que todos os *Millicores*, GB de RAM e de Disco retornaram exatamente aos seus 100% de capacidade original após as threads finalizarem, provando a gestão perfeita do ciclo de vida dos PODs (Alocação -> Consumo -> Libertação).
 3. **Simulação Realista:** O comportamento do sistema ao esgotar recursos imita com exatidão o estado *Pending* do Kubernetes em produção.
+
+### Exemplo de Execução
+
+![Resultado da simulação](COLE_AQUI_O_CAMINHO_DA_SUA_IMAGEM)
+
+---
+
+## Demonstração em Vídeo
+
+https://github.com/user-attachments/assets/COLE_AQUI_O_ID_DO_SEU_VIDEO
 
 ---
 
@@ -56,7 +63,13 @@ No final da simulação, o sistema gera um **Relatório Estatístico** comprovan
 
 O simulador é multiplataforma e não requer bibliotecas externas além da instalação padrão do Python 3.x.
 
-**Passo 1: Clonar o repositório**
+### Passo 1: Clonar o repositório
 ```bash
-git clone [https://github.com/leandroistan/trabga-so-aa.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
-cd SEU_REPOSITORIO
+git clone https://github.com/leandroistan/trabga-so-aa.git
+cd trabga-so-aa
+```
+
+### Passo 2: Executar a simulação
+```bash
+python simulador_kubernetes.py
+```
